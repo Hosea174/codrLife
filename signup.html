@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="account.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <title>CodrLife - Create an account</title>
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <header>
+        <nav>
+            <a href="index.html"> <img src="images/logo.svg" alt="codrlife" class="logo"></a>
+            <ul id="nav-menus">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Contact</a> </li>
+                <li><a href="#">Courses</a></li>
+            </ul>
+            <div id="account-links">
+                <a id="sign-in" href="signin.html">Sign in</a>
+                <a id="sign-up" href="signup.html">
+                    <button id="sign-up-btn">Sign up</button>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="img-n-desc">
+                <p>Fun, interactive and project-based learning</p>
+            </div>
+
+            <div class="acc-form">
+                <h3 class="page-title">Sign up</h3>
+                <span class="welcome">Hello, there 👋</span>
+                <p style="margin: 20px 0;">Create your own success story by joining our 200,000 students right now!
+                </p>
+                <form action="POST">
+                    <input required type="email" placeholder="Email">
+                    <input required type="password" placeholder="Password">
+                    <input required type="password" placeholder="Confirm password">
+                    <br>
+                    <div class="checkbox-prompt" style="right: 15px;">
+                        <input required type="checkbox" name="agree" id="agree">
+                        <label for="agree">I agree to the <a href="#" class="link">Terms</a> and <a href="#"
+                                class="link">Conditions</a></label>
+                    </div>
+
+                    <input type="submit" value="Create an account">
+                </form>
+
+                <p id="switch">ALready a member? <a href="signin.html" class="link">Log in</a></p>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+</body>
+
+</html>
